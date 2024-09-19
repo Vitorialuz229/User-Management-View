@@ -30,23 +30,19 @@ Para iniciar o projeto, siga os passos abaixo:
    git clone https://github.com/Vitorialuz229/User-Management-View.git
 ```
 
-## Instale as dependências:
-
-Navegue até o diretório do projeto e execute:
+2. **Navegue até o diretório do projeto e execute**:
 
 ```bash
 npm install
 ```
 
-## Execute o projeto:
-
-Após a instalação das dependências, inicie o servidor de desenvolvimento com:
+3. **Após a instalação das dependências, inicie o servidor de desenvolvimento com**:
 
 ```bash
 npm run dev
 ```
 
-Isso iniciará o servidor e você poderá acessar a aplicação no navegador.
+4. **Isso iniciará o servidor e você poderá acessar a aplicação no navegador**.
 
 ## Contribuições
 
