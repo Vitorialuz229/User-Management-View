@@ -13,6 +13,10 @@ Este projeto é uma aplicação de gerenciamento de usuários desenvolvida com *
 - **Atualização de Usuários**: Atualize as informações de um usuário existente.
 - **Deleção de Usuários**: Remova usuários do banco de dados.
 
+## Observe as funcionalidades
+
+![Video de NodeJs](./src/aseats/Node-Video-Users.gif)
+
 ## Tecnologias Utilizadas
 
 - **React**: Biblioteca JavaScript para construção de interfaces de usuário.
