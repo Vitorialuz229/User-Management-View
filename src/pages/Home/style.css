@@ -1,0 +1,207 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 100px;
+  min-height: 100vh;
+  background-color: #1e1d3b;
+  font-family: "Poppins", sans-serif;
+}
+
+.container-title {
+  color: #fff;
+  font-size: 16px;
+  margin-bottom: 20px;
+  text-align: left;
+  width: 100%;
+  padding-left: 460px;
+}
+
+.button-container {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 460px;
+}
+
+.button-container button {
+  background-color: #2e2d4e;
+  color: #fff;
+  padding: 2px 10px;
+  border: none;
+  cursor: pointer;
+}
+
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.7);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.modal {
+  background-color: #2e2d4e;
+  padding: 30px;
+  border-radius: 10px;
+  width: 100%;
+  max-width: 600px;
+  position: relative;
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.5);
+  animation: fadeIn 0.3s ease;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 40px;
+  border-radius: 10px;
+  max-width: 100%;
+  width: 100%;
+  max-width: 600px;
+  margin-bottom: 30px;
+}
+
+form button {
+  border: none;
+  border-radius: 30px;
+  background-color: #8b8ae1;
+  color: white;
+  font-size: 14px;
+  padding: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+form button:hover {
+  opacity: 0.8;
+}
+
+form button:focus {
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(139, 138, 225, 0.4);
+}
+
+form input {
+  border: 1px solid #48456c;
+  border-radius: 30px;
+  height: 40px;
+  background-color: #363653;
+  padding-left: 10px;
+  font-size: 16px;
+  color: white;
+}
+
+form input::placeholder {
+  color: #bfbfff;
+}
+
+h1 {
+  color: #fff;
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.close-modal {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  background: none;
+  border: none;
+  font-size: 24px;
+  color: #fff;
+  cursor: pointer;
+  transition: color 0.2s ease;
+}
+
+.close-modal:hover {
+  color: #ff6b6b;
+}
+
+.delete-button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  color: #fff;
+  font-size: 24px;
+  transition: color 0.3s ease;
+}
+
+.delete-button:hover {
+  color: #917575;
+}
+
+.card {
+  display: flex;
+  justify-content: space-between;
+  background-color: #2e2d4e;
+  margin: 10px;
+  padding: 10px;
+  width: 600px;
+  border-radius: 10px;
+}
+
+.card p {
+  color: white;
+  font-weight: bold;
+}
+
+.card span {
+  font-weight: normal;
+}
+
+.card button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.card button:hover {
+  opacity: 0.5;
+}
+
+.search-input-container {
+  position: relative;
+  display: flex;
+  align-items: center;
+  max-width: 400px;
+  width: 100%;
+}
+
+.search-input-container input {
+  width: 75%;
+  padding: 10px 30px;
+  border: 1px solid #12121a;
+  border-radius: 5px;
+  outline: none;
+  background-color: #2e2d4e;
+  color: white;
+}
+
+.search-icon {
+  position: absolute;
+  left: 10px;
+  color: #ccc;
+}
+
+.search-input-container input::placeholder {
+  color: #fff;
+}
